@@ -1,0 +1,166 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10711271000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Verify that user should be navigate to the link page and loads correctly",
+        "description": "",
+        "id": "asserts-that-the-evidence-link-shows-and-loads-correctly;verify-that-user-should-be-navigate-to-the-link-page-and-loads-correctly",
+        "after": [
+          {
+            "result": {
+              "duration": 5912177700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 487063300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I click on the link",
+            "match": {
+              "location": "MyStepdefs.iClickOnTheLink()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3378833800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I should navigate to the link page and loads correctly",
+            "match": {
+              "location": "MyStepdefs.iShouldNavigateToTheLinkPageAndLoadsCorrectly()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6408273700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "asserts that comments that are posted to the \"asset\" are saved and visible",
+        "description": "",
+        "id": "asserts-that-the-evidence-link-shows-and-loads-correctly;asserts-that-comments-that-are-posted-to-the-\"asset\"-are-saved-and-visible",
+        "after": [
+          {
+            "result": {
+              "duration": 1194424400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 34700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the link",
+            "match": {
+              "location": "MyStepdefs.iClickOnTheLink()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on comment link",
+            "match": {
+              "location": "MyStepdefs.iClickOnCommentLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3210580100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Comment box open",
+            "match": {
+              "location": "MyStepdefs.commentBoxOpen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1101538900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I write comment and click on post comment \"This picture is beautiful\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This picture is beautiful",
+                  "offset": 43
+                }
+              ],
+              "location": "MyStepdefs.iWriteCommentAndClickOnPostComment(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199713400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should saved and visible successfully",
+            "match": {
+              "location": "MyStepdefs.iShouldSavedAndVisibleSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "asserts that the evidence link shows and loads correctly",
+    "description": "",
+    "id": "asserts-that-the-evidence-link-shows-and-loads-correctly",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefile/Assert.feature"
+  }
+]
